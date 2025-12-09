@@ -1,150 +1,36 @@
-# nlabs.dev - Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Sitio web corporativo para nlabs, consultora especializada en tecnología.
+## Getting Started
 
-## 🚀 Características
+First, run the development server:
 
-- **Diseño minimalista y moderno** inspirado en JetBrains, GitHub, VSCode y Accenture
-- **Totalmente responsive** - optimizado para mobile, tablet y desktop
-- **Animaciones suaves** con Intersection Observer API
-- **SEO optimizado** con meta tags y estructura semántica
-- **Accesibilidad** - cumple con estándares WCAG
-- **Performance** - CSS y JavaScript optimizados
-
-## 📦 Estructura
-
-```
-website-nlabs.dev/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # JavaScript
-├── logo.png           # Logo de la empresa
-└── README.md          # Este archivo
-```
-
-## 🎨 Servicios Destacados
-
-1. **DevOps** - CI/CD, Kubernetes, Infrastructure as Code
-2. **Software Development** - Full-Stack, Microservices, APIs
-3. **Producto Digital B2B/B2C** - Product Discovery, UX/UI, MVP
-4. **AI Agentic** - Agentes inteligentes, LLM Integration, IA Generativa
-
-## 🛠 Stack Tecnológico
-
-- HTML5 semántico
-- CSS3 moderno (Variables CSS, Grid, Flexbox)
-- JavaScript Vanilla (ES6+)
-- SVG para iconos
-- Google Fonts (opcional)
-
-## 🚀 Cómo usar
-
-### Opción 1: Abrir directamente
-Simplemente abre `index.html` en tu navegador.
-
-### Opción 2: Servidor local
 ```bash
-# Usando Python
-python -m http.server 8000
-
-# Usando Node.js (npx)
-npx serve
-
-# Usando PHP
-php -S localhost:8000
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Luego visita `http://localhost:8000`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📱 Responsive Breakpoints
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- **Mobile**: < 768px
-- **Tablet**: 769px - 1024px
-- **Desktop**: > 1024px
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🎨 Paleta de Colores
+## Learn More
 
-- **Primary**: `#2563eb` (Blue)
-- **Primary Dark**: `#1e40af`
-- **Primary Light**: `#60a5fa`
-- **Text**: `#0f172a`
-- **Background**: `#ffffff`
-- **Border**: `#e2e8f0`
+To learn more about Next.js, take a look at the following resources:
 
-## ✨ Características Técnicas
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### CSS
-- Variables CSS para fácil personalización
-- Sistema de diseño consistente
-- Animaciones con `@keyframes`
-- Gradientes modernos
-- Sombras sutiles
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### JavaScript
-- Menú móvil interactivo
-- Smooth scroll
-- Animaciones con Intersection Observer
-- Sistema de notificaciones
-- Form validation
-- Active navigation links
+## Deploy on Vercel
 
-## 🔧 Personalización
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Cambiar colores
-Edita las variables CSS en `styles.css`:
-```css
-:root {
-    --color-primary: #TU_COLOR;
-    --color-primary-dark: #TU_COLOR_OSCURO;
-}
-```
-
-### Modificar contenido
-Todo el contenido se encuentra en `index.html` con comentarios descriptivos.
-
-### Agregar animaciones
-Usa las clases existentes o agrega nuevas en `script.js`.
-
-## 📧 Contacto
-
-Para configurar el formulario de contacto, necesitarás:
-1. Un backend para procesar el formulario
-2. O usar servicios como Formspree, Netlify Forms, etc.
-
-Ejemplo con Formspree:
-```html
-<form action="https://formspree.io/f/TU_ID" method="POST">
-```
-
-## 🚀 Deployment
-
-### Netlify
-```bash
-# Arrastra la carpeta al sitio de Netlify
-# o conecta tu repositorio Git
-```
-
-### Vercel
-```bash
-vercel --prod
-```
-
-### GitHub Pages
-1. Push a GitHub
-2. Settings → Pages → Deploy from branch
-
-## 📝 TODO
-
-- [ ] Agregar Google Analytics
-- [ ] Implementar backend para formulario
-- [ ] Agregar más casos de éxito
-- [ ] Blog section
-- [ ] Dark mode toggle
-
-## 📄 Licencia
-
-© 2025 nlabs. Todos los derechos reservados.
-
-## 🤝 Contribuir
-
-Para sugerencias o mejoras, contacta a: hola@nlabs.dev
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
